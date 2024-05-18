@@ -49,7 +49,7 @@ metadata:
     alb.ingress.kubernetes.io/tags: Environment=dev,Team=test,Project=Roboshop
     alb.ingress.kubernetes.io/group.name: pavan49r
 spec:
-  ingressClassname: alb
+  ingressClassName: alb
   rules:
   - host: "app1.pavanaws.online"
     http:
