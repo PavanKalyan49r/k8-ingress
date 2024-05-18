@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: app1
-        image: pavan49r/ingress:v1
+        image: pavan49r/app1:v1
         imagePullPolicy: Always
         resources:
           requests:
